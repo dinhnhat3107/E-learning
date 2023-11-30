@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://images.pexels.com/photos/531972/pexels-photo-531972.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'); /* Hình ảnh nền */
+    background-size: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.dang-ky{
+    display: none;
+}
+
+
+
+.navbar {
+    background-color: #f4e5e5;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar img {
+    width: 30%;
+    height: 80px;
+    margin-right: 10px;
+}
+
+.container {
+    background-color: #fff;
+    background: rgba(255, 255, 255, 0.9); /* Màu nền cho box đăng nhập */
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.container h2 {
+    font-weight: bold;
+    font-family: sans-serif;
+    text-align: center;
+    color: #333;
+}
+.container h1 {
+    font-weight: bold;
+    font-family: sans-serif;
+    text-align: left;
+    color: #333;
+    font-size: 15px;
+    margin: 3px;
+}
+
+.container form {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+.container label, .container input {
+    margin: 7px 0;
+}
+
+.container input[type="text"], .container input[type="password"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    height: 7%;
+}
+
+.container button[type="submit"] {
+    background-color: rgb(11, 144, 60);
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.container input[type="submit"]:hover {
+    background-color: #2980b9;
+}
+
+.container img {
+    max-width: 150px;
+    height: auto;
+    display: block;
+    margin: 0 auto 20px;
+}

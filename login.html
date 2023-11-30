@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head> 
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+<body>
+        <div class="navbar">
+            <img src="../image/logovqt_preview_rev_1.png" alt="Logo">
+            <h1><br></h1>
+        </div>
+        
+        <div class="container">
+            <div class="dang-nhap">
+
+                <form onsubmit="login()">
+                    <div class="input-box">
+                        <i class='bx bxs-user'>Username</i>
+                        <input type="text" id= "username" name="username" placeholder="Username"
+                        required>
+                    </div>
+                    <div class="input-box">
+                        <i class='bx bxs-lock'>Password</i>
+                        <input type="password" id= "password" name="password" placeholder="Password"
+                        required>
+                    </div>
+                    <div class="remember-forgot">
+                        <label><input type="checkbox">Remember me
+                        </label>
+                        <a href="#">Forgot Password?</a>
+                    </div>
+                    
+                    <button id="submit" type="submit" value="Login">Login</button>
+                </form>
+
+
+
+                
+            </di>
+
+
+            <div class="dang-ky">
+                <form action="log.php" method="post">
+                    <h2>Login</h2>
+
+                    <div class="input-box">
+                        <h1>Full name:</h1>
+                        <input type="text" id= "full-name" name="full-name" placeholder="Input your full name"
+                        required>
+                        
+                    </div>
+                    <div class="input-box">
+                        <h1>Email:</h1>
+                        <input type="text" id= "email" name="email" placeholder="Input your email"
+                        required>
+                        
+                    </div>
+                    <div class="input-box">
+                        <h1>Day of birth:</h1>
+                        <input type="date" id= "dob" name="dob"
+                        required>
+                        
+                    </div>
+                    <div class="input-box">
+                        <h1>Phone number:</h1>
+                        <input type="text" id= "phone-number" name="phone-number" placeholder="Input your phone number"
+                        required>
+                        
+                    </div>
+                    <div class="input-box">
+                        <h1>Username:</h1>
+                        <input type="text" id= "username" name="username" placeholder="Input your username"
+                        required>
+                        
+                    </div>
+                    <div class="input-box">
+                        <h1>Password:</h1>
+                        <input type="password" id= "password" name="password" placeholder="Input your password"
+                        required>
+                        
+                    </div>
+                    <div class="input-box">
+                        <h1>Confirm Password:</h1>
+                        <input type="password" id= "conf-password" name="conf-password" placeholder="Confirm your password"
+                        required>
+                        
+                    </div>
+                    <button type="submit" value="Login">Login</button>
+                    </form>
+            </div>
+                
+           
+        </div>  
+      <script src="./main.js"></script>
+</body>
+</html>
